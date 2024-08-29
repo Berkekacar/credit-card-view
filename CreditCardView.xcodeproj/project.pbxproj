@@ -15,6 +15,10 @@
 		A674DCB22C811E2F0028754D /* CredictCardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCB12C811E2F0028754D /* CredictCardBackView.swift */; };
 		A674DCB42C811FCF0028754D /* CreditCardForwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCB32C811FCF0028754D /* CreditCardForwardView.swift */; };
 		A674DCB62C81248F0028754D /* HideKeykoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCB52C81248F0028754D /* HideKeykoardExtension.swift */; };
+		A674DCB82C81253B0028754D /* CreditCardFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCB72C81253B0028754D /* CreditCardFormView.swift */; };
+		A674DCBA2C8125E00028754D /* ExpiryDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCB92C8125E00028754D /* ExpiryDateView.swift */; };
+		A674DCBC2C8126190028754D /* DetectCardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCBB2C8126190028754D /* DetectCardType.swift */; };
+		A674DCBE2C8126C30028754D /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCBD2C8126C30028754D /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		A674DCB12C811E2F0028754D /* CredictCardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredictCardBackView.swift; sourceTree = "<group>"; };
 		A674DCB32C811FCF0028754D /* CreditCardForwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardForwardView.swift; sourceTree = "<group>"; };
 		A674DCB52C81248F0028754D /* HideKeykoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeykoardExtension.swift; sourceTree = "<group>"; };
+		A674DCB72C81253B0028754D /* CreditCardFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardFormView.swift; sourceTree = "<group>"; };
+		A674DCB92C8125E00028754D /* ExpiryDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiryDateView.swift; sourceTree = "<group>"; };
+		A674DCBB2C8126190028754D /* DetectCardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCardType.swift; sourceTree = "<group>"; };
+		A674DCBD2C8126C30028754D /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,10 @@
 				A674DCB12C811E2F0028754D /* CredictCardBackView.swift */,
 				A674DCB32C811FCF0028754D /* CreditCardForwardView.swift */,
 				A674DCB52C81248F0028754D /* HideKeykoardExtension.swift */,
+				A674DCB72C81253B0028754D /* CreditCardFormView.swift */,
+				A674DCB92C8125E00028754D /* ExpiryDateView.swift */,
+				A674DCBB2C8126190028754D /* DetectCardType.swift */,
+				A674DCBD2C8126C30028754D /* TextField.swift */,
 			);
 			path = CreditCardView;
 			sourceTree = "<group>";
@@ -150,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A674DCB22C811E2F0028754D /* CredictCardBackView.swift in Sources */,
+				A674DCBA2C8125E00028754D /* ExpiryDateView.swift in Sources */,
+				A674DCBC2C8126190028754D /* DetectCardType.swift in Sources */,
+				A674DCBE2C8126C30028754D /* TextField.swift in Sources */,
 				A674DCB42C811FCF0028754D /* CreditCardForwardView.swift in Sources */,
 				A674DCA42C811D160028754D /* CreditCardView.swift in Sources */,
 				A674DCB62C81248F0028754D /* HideKeykoardExtension.swift in Sources */,
+				A674DCB82C81253B0028754D /* CreditCardFormView.swift in Sources */,
 				A674DCB02C811DB50028754D /* CreditCardInformationStruct.swift in Sources */,
 				A674DCA22C811D160028754D /* CreditCardViewApp.swift in Sources */,
 			);
