@@ -48,6 +48,9 @@ struct CreditCardFrontSubView: View {
             Spacer()
         }
         .ignoresSafeArea(.keyboard)
+        .onTapGesture {
+            self.hideKeyboard()
+        }
         .foregroundColor(.white)
         .frame(width: 350, height: 250)
         .background{
