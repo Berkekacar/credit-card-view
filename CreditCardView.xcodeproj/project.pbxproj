@@ -13,6 +13,7 @@
 		A674DCA92C811D170028754D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A674DCA82C811D170028754D /* Preview Assets.xcassets */; };
 		A674DCB02C811DB50028754D /* CreditCardInformationStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCAF2C811DB50028754D /* CreditCardInformationStruct.swift */; };
 		A674DCB22C811E2F0028754D /* CredictCardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCB12C811E2F0028754D /* CredictCardBackView.swift */; };
+		A674DCB42C811FCF0028754D /* CreditCardForwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674DCB32C811FCF0028754D /* CreditCardForwardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A674DCA82C811D170028754D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A674DCAF2C811DB50028754D /* CreditCardInformationStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardInformationStruct.swift; sourceTree = "<group>"; };
 		A674DCB12C811E2F0028754D /* CredictCardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredictCardBackView.swift; sourceTree = "<group>"; };
+		A674DCB32C811FCF0028754D /* CreditCardForwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardForwardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A674DCA72C811D170028754D /* Preview Content */,
 				A674DCAF2C811DB50028754D /* CreditCardInformationStruct.swift */,
 				A674DCB12C811E2F0028754D /* CredictCardBackView.swift */,
+				A674DCB32C811FCF0028754D /* CreditCardForwardView.swift */,
 			);
 			path = CreditCardView;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A674DCB22C811E2F0028754D /* CredictCardBackView.swift in Sources */,
+				A674DCB42C811FCF0028754D /* CreditCardForwardView.swift in Sources */,
 				A674DCA42C811D160028754D /* CreditCardView.swift in Sources */,
 				A674DCB02C811DB50028754D /* CreditCardInformationStruct.swift in Sources */,
 				A674DCA22C811D160028754D /* CreditCardViewApp.swift in Sources */,
