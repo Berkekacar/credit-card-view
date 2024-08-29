@@ -67,18 +67,14 @@
 		A674DCA02C811D160028754D /* CreditCardView */ = {
 			isa = PBXGroup;
 			children = (
+				A674DCC22C812B540028754D /* Models */,
+				A674DCC12C812B350028754D /* Extensions */,
+				A674DCC02C812B110028754D /* Style */,
+				A674DCBF2C812AF30028754D /* SubViews */,
 				A674DCA12C811D160028754D /* CreditCardViewApp.swift */,
 				A674DCA32C811D160028754D /* CreditCardView.swift */,
 				A674DCA52C811D170028754D /* Assets.xcassets */,
 				A674DCA72C811D170028754D /* Preview Content */,
-				A674DCAF2C811DB50028754D /* CreditCardInformationStruct.swift */,
-				A674DCB12C811E2F0028754D /* CredictCardBackView.swift */,
-				A674DCB32C811FCF0028754D /* CreditCardForwardView.swift */,
-				A674DCB52C81248F0028754D /* HideKeykoardExtension.swift */,
-				A674DCB72C81253B0028754D /* CreditCardFormView.swift */,
-				A674DCB92C8125E00028754D /* ExpiryDateView.swift */,
-				A674DCBB2C8126190028754D /* DetectCardType.swift */,
-				A674DCBD2C8126C30028754D /* TextField.swift */,
 			);
 			path = CreditCardView;
 			sourceTree = "<group>";
@@ -89,6 +85,42 @@
 				A674DCA82C811D170028754D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A674DCBF2C812AF30028754D /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				A674DCB12C811E2F0028754D /* CredictCardBackView.swift */,
+				A674DCB32C811FCF0028754D /* CreditCardForwardView.swift */,
+				A674DCB72C81253B0028754D /* CreditCardFormView.swift */,
+				A674DCB92C8125E00028754D /* ExpiryDateView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		A674DCC02C812B110028754D /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				A674DCBD2C8126C30028754D /* TextField.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		A674DCC12C812B350028754D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A674DCB52C81248F0028754D /* HideKeykoardExtension.swift */,
+				A674DCBB2C8126190028754D /* DetectCardType.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A674DCC22C812B540028754D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A674DCAF2C811DB50028754D /* CreditCardInformationStruct.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -16,7 +16,7 @@ struct CreditCardFrontSubView: View {
             HStack{
                 Image( systemName: "checkmark.circle.fill")
                 Spacer()
-                Text("Card type")
+                Text(detectCardType(cardNumber: creditCardInfo.cardNumber))
                     .font(.system(size: 18, weight: .bold, design: .monospaced))
                     .italic()
                     .padding()
